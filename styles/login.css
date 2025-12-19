@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#main{
+    display: inline-flex;
+}
+.container{
+    position: absolute;
+    height: 60% ;
+    width: 33%;
+    background-color: rgb(49, 49, 48);
+    right: 33.5%;
+    top: 25%;
+    border-radius: 5%;
+}
+.loginAndCloseButton{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+    padding: 20px;
+}
+#close{padding: 20px;
+       color: white;
+       background-color:rgb(49, 49, 48) ;
+       border: none;
+       margin-right: 20px;
+}
+.heading{
+    justify-self: center;
+    margin-bottom: 50px;
+}
+#inputs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+input{
+    color:white
+}
+#inputs *{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(60, 61, 61);
+    border: none;
+}
+input::placeholder{
+    color: white;
+}
+#loginButton{
+    display: flex;
+    height: 40px;
+    width: 80%;
+    border: none;
+    justify-self: center;
+    background-color: rgb(154, 245, 27);
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+}
+#show-hidePassword{
+    position: absolute;
+    width: 20px;
+    top: 5px;
+}

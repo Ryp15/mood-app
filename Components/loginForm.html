@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+    <div class="container">
+        <DIV class="loginAndCloseButton">
+            <div id="login"><span>Login</span></div>
+            <button id="close" >X</button>
+        </DIV>
+        <DIV class="heading">
+            <h1 id="welcome">Welcome Back !</h1>
+            <p>Please enter your details to login</p>
+        </DIV>
+        <DIV id="inputs">
+            <input type="text" placeholder="Name" id="nameInput">
+            <input type="text" placeholder="Email"id="emailAdressInput">
+            <div style="position: relative;">
+                <input type="password" placeholder="Password"input="passwordInput" id="passwordInput">
+                <button id="show-hidePassword" onclick="showOrhidePassword()">show</button>
+            </div>
+        </DIV>
+        <button id="loginButton">Login</button>
+    </div>
+    <script src="./sripts/login.js"></script>
+</body>
+</html>

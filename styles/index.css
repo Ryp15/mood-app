@@ -1,0 +1,79 @@
+/*container*/
+#container{
+    position: relative;
+    padding: 20px;
+}
+body, #container{
+        background-color: rgb(45, 43, 43);
+
+}
+
+
+#topLayer{
+    left: 50px;
+    display:flex;
+    justify-content: space-between;
+    background-color:yellow;
+
+}
+#leftPanel{
+    color: white;
+    display: inline-flex;
+}
+#rightPanel{
+    display: inline-flex;
+    color: rgb(150, 157, 164);
+    gap: 3px;
+}
+#rightPanel *{
+     background-color: rgb(77, 77, 76);
+}
+#logo{
+    width: 50px;
+    background-color: brown;
+}
+
+#welcome{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#emoji{
+    width: 100px;
+}   
+#weather{
+    width: 50px;
+}
+#singUp{
+    width: 50px;
+}
+/*panels*/
+#main{
+    width: 100%;
+    display:inline-flex;
+    gap: 10px;
+    justify-self: center;
+}
+#tasksPanel{
+    width: 60%;
+    background-color:rgb(77, 77, 90) ;
+    height:500px;
+    margin: 20px 5px 40px 0;
+
+}
+#actionPanel{
+    width: 35%;
+    background-color: rgb(77, 77, 77);
+    height: 500px;
+    margin: 20px 0 10px 5px;
+
+}
+
+#heading{
+    text-align: center;
+    color:  rgb(154, 245, 27);
+}
+.actionElement{
+    /**/
+}
